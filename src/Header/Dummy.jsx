@@ -5,7 +5,7 @@ function Dummy (){
         <div className="Header"> 
         <ul>
             <button type="button" className="btn btn-secondary"> <Link to="/"> Home </Link> </button>
-            <Link to="Aboutus"> About Us</Link>
+            <Link to="/Aboutus"> About Us </Link>
             </ul>
         </div>
         </>
