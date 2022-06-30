@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./Header/Dummy";
 import AboutUs from "./Header/Dummy";
-import Aboutus from './US/Aboutus';
+import Aboutus from './Folder/ABOUTUS';
+import AuthInfo from './Land/AuthInfo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,11 +15,11 @@ root.render(
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home/>}/>
-      <Route path="AboutUs" element={<AboutUs/>}/>
+      <Route path="AuthInfo" element={<AuthInfo/>}/>
+      <Route path="Aboutus" element={<AboutUs/>}/>
       <Route path="Aboutus" element={<Aboutus/>}/>
     </Routes>
     </BrowserRouter>
-    {/* <App /> */}
   </React.StrictMode>
 );
 
