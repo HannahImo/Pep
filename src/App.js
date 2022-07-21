@@ -1,28 +1,31 @@
 // import logo from './logo.svg';
 import './App.css';
-import Header from './dummy/index';
+import Home from './Smart/Home';
+// import Header from './dummy/index';
 
 
 function App() {
   return (
   <>
-  <Header/>
+  <Home/>
   </>
   );
 }
 
 export default App;
 
-{/* <div className="App">
-      <Picture/>
-      <Menuinfo/>
+
+
+//  <div className="App">
+//       <Picture/>
+//       <Menuinfo/>
        
-    <header className='app-header'/>
+//     <header className='app-header'/>
        
-    <a 
-       className='App-link'
-       href='https:reactjs.org'
-       target="-blank"
-        rel="noopener noreferrer"> 
-        </a>
-    </div> */}
+//     <a 
+//        className='App-link'
+//        href='https:reactjs.org'
+//        target="-blank"
+//         rel="noopener noreferrer"> 
+//         </a>
+//     </div> 
